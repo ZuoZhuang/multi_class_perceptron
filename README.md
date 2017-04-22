@@ -8,4 +8,4 @@ Requires python3.X
 ## Requirements
 ### Numpy
 
-'''pip3 install --upgrade numpy'''
+'pip3 install --upgrade numpy'
