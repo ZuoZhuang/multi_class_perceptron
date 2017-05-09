@@ -110,8 +110,6 @@ class Perceptron(object):
                     i, self.learning_rate, math.sqrt(sum_error), num_correct/dataset.num_data()))
 
 
-
-
     def test(self, dataset, plot_error=True, print_mesg=True):
         '''Test the model with give data and epoch
 

@@ -12,6 +12,7 @@ class Dataset(object):
     def num_data(self):
         return np.shape(self.data_set)[0]
 
+
     def shuffle_dataset(self):
         '''Shuffle the dataset for random input'''
         np.random.shuffle(self.data_set)
